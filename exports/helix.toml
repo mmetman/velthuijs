@@ -1,0 +1,58 @@
+# Helix Theme
+"ui.background" = { bg = "background" }
+"ui.foreground" = { fg = "foreground" }
+"ui.cursor" = { fg = "#edf2f5", bg = "light-green" }
+"ui.selection" = { fg = "background", bg = "green" }
+"ui.linenr" = { fg = "gray" }
+"ui.linenr.selected" = { fg = "light-gray", modifiers = ["bold"] }
+"ui.statusline" = { fg = "background", bg = "blue" }
+"ui.statusline.normal" = { fg = "#edf2f5", bg = "#5b95c0", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "#edf2f5", bg = "#579c36", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "#edf2f5", bg = "#c4b410", modifiers = ["bold"] }
+"ui.menu" = { fg = "background", bg = "blue" }
+"ui.menu.selected" = { fg = "#edf2f5", bg = "#5b95c0" }
+"ui.window" = { fg = "#cfcd59" }
+"ui.text" = { fg = "#4888ac" }
+"ui.help" = { fg = "background", bg = "light-blue" }
+"ui.cursor.match" = { fg = "#c4b410", modifiers = ["bold"] }
+"ui.popup" = { bg = "background_dark" }
+
+# Syntax
+"comment" = { fg = "#a6a455", modifiers = ["italic"] }
+"constant" = { fg = "#cf2e1e" }
+"constant.numeric" = { fg = "#cf2e1e" }
+"string" = { fg = "#579c36" }
+"variable" = { fg = "#e06c74" }
+"variable.builtin" = { fg = "#c99541" }
+"type" = { fg = "#e06c74" }
+"type.builtin" = { fg = "#e06c74", modifiers = ["bold"] }
+"function" = { fg = "#5b95c0" }
+"function.builtin" = { fg = "#5b95c0" }
+"keyword" = { fg = "#c99541", modifiers = ["bold"] }
+"operator" = { fg = "#e06c74" }
+"punctuation" = { fg = "#7b7061" }
+"tag" = { fg = "#5b95c0" }
+"attribute" = { fg = "#c4b410" }
+"markup.heading" = { fg = "#5b95c0", modifiers = ["bold"] }
+"markup.link.url" = { fg = "#e06c74" }
+"diff.plus" = { fg = "#579c36" }
+"diff.minus" = { fg = "#cf2e1e" }
+"diff.delta" = { fg = "#c4b410" }
+"diagnostic.error" = { fg = "#cf2e1e" }
+"diagnostic.warning" = { fg = "#c4b410" }
+"diagnostic.info" = { fg = "#5b95c0" }
+"diagnostic.hint" = { fg = "#e06c74" }
+"error" = { fg = "red" }
+"warning" = { fg = "yellow" }
+"info" = { fg = "blue" }
+"hint" = { fg = "green" }
+
+[palette]
+background = "#f2f7f9"
+background_dark = "#e4ecf0"
+foreground = "#4888ac"
+red = "#cf2e1e"
+yellow = "#c4b410"
+blue = "#5b95c0"
+green = "#579c36"
+
